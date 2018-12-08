@@ -1,5 +1,5 @@
 ﻿
-//显示页码错误信息 add xia 2014-06-09 检查页码错误信息
+//显示页码错误信息 add xia 2018-06-09 检查页码错误信息
 function NameInspection(ctr) {
     var content = $(ctr).val();
     var errorCtr = $("#e_" + ctr.id);
@@ -22,7 +22,7 @@ function NameInspection(ctr) {
     }
 }
 
-//手机号码错误信息 add xia 2014-06-09 检查页码错误信息
+//手机号码错误信息 add xia 2018-06-09 检查页码错误信息
 function TelInspection(ctr) {
     var content = $(ctr).val();
     content = $.trim(content);
@@ -68,7 +68,7 @@ function TelInspection(ctr) {
 }
 
 
-//页面的数字 add xia 2014-06-09 检查
+//页面的数字 add xia 2018-06-09 检查
 function numberInspection(ctr) {
     var content = $(ctr).val();
     var min = $(ctr).attr("min");
@@ -105,7 +105,7 @@ function numberInspection(ctr) {
     }
 }
 
-//检查字符串是否为空 add xia 2014-06-12
+//检查字符串是否为空 add xia 2018-06-12
 function checkNullOrEmpty(str) {
     var result = false;
     if (str == null)

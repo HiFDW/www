@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=1280, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="renderer" content="webkit|ie-comp|ie-stand">
-<title>在线进销存</title>
+<title>天府粮油库存管理系统</title>
 
 <link href="<?=skin_url()?>/css/common.css?ver=20140815" rel="stylesheet" type="text/css">
 
